@@ -12,3 +12,8 @@ cd my-music
 # Start uploading
 apple-music-load
 ```
+
+## Performance
+
+ * To better utilize all cores, the script launches multiple processes in parallel to convert your FLAC files to MP3 
+ * You can configure how much processes the script can run in parallel by changing `MAX_PROCESSES` variable
