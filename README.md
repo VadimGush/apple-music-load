@@ -2,7 +2,7 @@
 Converts and uploads your music directly to iTunes (Apple Music).
 
 Recursivily finds all MP3 and FLAC files in the current directory and uploads them to iTunes.  
-Flac files will be converted to MP3 because iTunes doesn't support FLAC.
+Flac files will be converted to MP3 (using ffmpeg) because iTunes doesn't support FLAC.
 
 Usage:
 ```sh
